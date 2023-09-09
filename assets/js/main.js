@@ -45,3 +45,11 @@ loadMoreButton.addEventListener('click', () => {
         loadPokemonItens(offset, limit)
     }
 })
+
+//toggle dark and light mode
+function toggleMode() {
+    const html = document.documentElement;
+  
+    html.classList.toggle("light");
+
+  }
